@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Family Recognition 
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="Areeb logo (1).png" height="100px" width="100px">
+        <section id="intro">
+            <center>
+            <h1 class="btn btn-info container"><b>Mom</b></h1> 
+            <br>
+            <h1 class="btn btn-info container"><b>Dad</b></h1> 
+            <br>
+            <h1 class="btn btn-info container"><b>Son</b></h1> 
+            </center>
+
+            <h1> Name: </h1> &nbsp; <h1 id="name"></h1>
+            <h1> Accuracy: </h1> &nbsp; <h1 id="accuracy"></h1>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        
+            <center>
+        <div id="cam" width="300px" height="300px" class="Sight"> 
+
+        </div>
+        <br>
+        <br>
+        <button onclick="Capture()" class="btn btn-success"> Capture the image </button>
+        <br>
+        <br>
+        <div id="pic" width="300px" height="300px" class="Sight"> 
+
+        </div>
+        <br>
+        <br>
+        <button class="btn btn-info" onclick="indentify()">Indentify the Image</button>
+        </center>
+        
+    
+    </body>
+    <style>
+        .Sight{
+            border-style: dashed;
+            height: 300px;
+            width: 300px;
+            text-align: center;
+            align-items: center;
+           
+            
+
+        }
+
+    </style>
+</html>
